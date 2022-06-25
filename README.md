@@ -24,10 +24,10 @@ If everything went right, the project will be launched on [http://localhost:3000
 
 # Additional programs which I used:
 
-Creating a form to send emails [https://app.getform.io/forms](https://app.getform.io/forms)
-Download fonts for project [https://fonts.google.com/](https://fonts.google.com/)
-React Icons [https://react-icons.github.io/](https://react-icons.github.io/)
-Simplify css markup in code [https://tailwindcss.com](https://tailwindcss.com)
+Creating a form to send emails[https://app.getform.io/forms](https://app.getform.io/forms)
+Download fonts for project[https://fonts.google.com/](https://fonts.google.com/)
+React Icons[https://react-icons.github.io/](https://react-icons.github.io/)
+Simplify css markup in code[https://tailwindcss.com](https://tailwindcss.com)
 
 # Preview
 
