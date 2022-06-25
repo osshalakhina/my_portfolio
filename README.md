@@ -1,17 +1,34 @@
-# Getting Started with Create React App
+# my_portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### About project:
 
-## Available Scripts
+It is portfolio site with examples of my work in programming, design and illustration which was done on React.
 
-In the project directory, you can run:
+### Tehnology: 
 
-### `npm start`
+* HTML
+* CSS
+* JavaScript
+* React
+* Git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Installation
+To run on a local machine, you need:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Install npm dependencies:
+### `npm install`
+2. Run in development mode:
+### `npm run start`
 
+If everything went right, the project will be launched on [http://localhost:3000](http://localhost:3000)
 
+# Additional programs which I used:
+
+Creating a form to send emails [https://app.getform.io/forms](https://app.getform.io/forms)
+Download fonts for project [https://fonts.google.com/](https://fonts.google.com/)
+React Icons [https://react-icons.github.io/](https://react-icons.github.io/)
+Simplify css markup in code [https://tailwindcss.com](https://tailwindcss.com)
+
+# Preview
+
+![](./public/preview.gif)
