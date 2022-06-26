@@ -1,4 +1,6 @@
 import React from "react";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 import one from "../assets/design/one.jpg";
 import two from "../assets/design/two.jpg";
@@ -12,32 +14,39 @@ const Design = () => {
     {
       id: 1,
       src: one,
-      title: "Designs for Dtawiz.io",
+      title: "Graphic and presentation design for Dtawiz.io",
+      href: "https://www.slideshare.net/VolodymyrNepiuk/datawizio-our-mi",
     },
     {
       id: 2,
       src: two,
-      title: "Designs for KartoonArt",
+      title:
+        "Web, graphic, presentations design and illustrations for KartoonArt",
+      href: "http://happyfarm.com.ua/bi/residents/kartoonart/",
     },
     {
       id: 3,
       src: three,
-      title: "Presentations",
+      title: "Presentations for startups and conferences, businesses",
+      href: "",
     },
     {
       id: 4,
       src: four,
-      title: "Package design",
+      title: "Web and graphic design for Promax Group",
+      href: "http://www.promax.group/en",
     },
     {
       id: 5,
       src: five,
-      title: "Coupon design for :Printle",
+      title: "Graphic design for :Printl",
+      href: "https://www.youtube.com/watch?v=Hik8Czp_CZ8",
     },
     {
       id: 6,
       src: six,
-      title: "Muso Grazioso kennel",
+      title: "Site for Muso Grazioso kennel",
+      href: "https://musograzioso.com/?page_id=150",
     },
   ];
 
@@ -58,17 +67,22 @@ const Design = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, title }) => (
+          {portfolios.map(({ id, src, title, href }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-              <img
-                src={src}
-                alt=""
-                className="rounded-md duration-200 hover:scale-105"
-              />
+              <Zoom>
+                <img
+                  src={src}
+                  alt="photo of work"
+                  className="rounded-md duration-200 hover:scale-105"
+                />
+              </Zoom>
+
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-2 py-3 m-2 duration-200 hover:scale-105">
-                  <p>{title}</p>
-                </button>
+                <form action={href}>
+                  <button className="px-2 py-3 m-2 duration-200 hover:scale-105">
+                    <p>{title}</p>
+                  </button>
+                </form>
               </div>
             </div>
           ))}

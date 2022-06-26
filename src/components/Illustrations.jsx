@@ -1,4 +1,6 @@
 import React from "react";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 import one from "../assets/illustrations/one.jpg";
 import two from "../assets/illustrations/two.jpg";
@@ -52,22 +54,24 @@ const Illustrations = () => {
             Illustrations
           </p>
           <p className="py-6">
-            I like to create new heros, make their view from different sides and
-            situations
+            To create this part of my works I used Adobe Illustrator and Adobe
+            Photoshop
           </p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src, title }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-              <img
-                src={src}
-                alt="illustartion"
-                className="rounded-md duration-200 hover:scale-105"
-              />
+              <Zoom>
+                <img
+                  src={src}
+                  alt="illustartion"
+                  className="rounded-md duration-200 hover:scale-105"
+                />
+              </Zoom>
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-2 py-3 m-2 duration-200 hover:scale-105">
+                <div className="px-2 py-3 m-2 duration-200 hover:scale-105">
                   <p>{title}</p>
-                </button>
+                </div>
               </div>
             </div>
           ))}

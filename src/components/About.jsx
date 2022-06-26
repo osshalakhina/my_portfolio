@@ -1,4 +1,6 @@
 import React from "react";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 import Masa from "../assets/diploms/MASA.jpg";
 import Certificate_1 from "../assets/diploms/Certificate_1.jpg";
@@ -13,12 +15,10 @@ const About = () => {
     {
       id: 2,
       src: Certificate_1,
-      link: "https://www.udemy.com/certificate/UC-b7f1828e-91e2-447e-a14d-dd2e014034d0/",
     },
     {
       id: 3,
       src: Certificate_2,
-      link: "https://www.udemy.com/certificate/UC-a81689a5-9479-4180-af50-ccca0aa8a938/",
     },
   ];
 
@@ -41,14 +41,14 @@ const About = () => {
         </p>
         <div className="pt-8">
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 mb-20">
-            {certificate.map(({ id, src, link }) => (
+            {certificate.map(({ id, src }) => (
               <div
                 key={id}
                 className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg"
               >
-                <a href={link}>
+                <Zoom>
                   <img className="rounded-lg" src={src} alt="" />
-                </a>
+                </Zoom>
               </div>
             ))}
           </div>
