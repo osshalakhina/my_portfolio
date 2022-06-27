@@ -28,7 +28,7 @@ const Design = () => {
       id: 3,
       src: three,
       title: "Presentations for startups and conferences, businesses",
-      href: "",
+      href: "https://www.slideshare.net/VolodymyrNepiuk/bi-datawizio-54256355",
     },
     {
       id: 4,
