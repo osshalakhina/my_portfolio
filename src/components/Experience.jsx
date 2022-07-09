@@ -12,6 +12,7 @@ import figma from "../assets/figma.png";
 import bootstrap from "../assets/bootstrap.png";
 import uiux from "../assets/uiux.png";
 import elementor from "../assets/elementor.png";
+import xd from "../assets/xd.png";
 
 const Experience = () => {
   const techs = [
@@ -83,6 +84,12 @@ const Experience = () => {
     },
     {
       id: 12,
+      src: xd,
+      title: "Adobe XD",
+      style: "shadow-pink-500",
+    },
+    {
+      id: 13,
       src: figma,
       title: "Figma",
       style: "shadow-green-300",

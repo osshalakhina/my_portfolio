@@ -14,7 +14,7 @@ const Design = () => {
     {
       id: 1,
       src: one,
-      title: "Graphic and presentation design for Dtawiz.io",
+      title: "Graphic and presentations design for Datawiz.io",
       href: "https://www.slideshare.net/VolodymyrNepiuk/datawizio-our-mi",
     },
     {
@@ -27,25 +27,25 @@ const Design = () => {
     {
       id: 3,
       src: three,
-      title: "Presentations for startups and conferences, businesses",
-      href: "https://www.slideshare.net/VolodymyrNepiuk/bi-datawizio-54256355",
+      title: "Application mockups",
+      href: "https://youtube.com/shorts/TGM0LZnRbLc?feature=share",
     },
     {
       id: 4,
       src: four,
-      title: "Web and graphic design for Promax Group",
+      title: "Web, graphic and package design for Promax Group",
       href: "http://www.promax.group/en",
     },
     {
       id: 5,
       src: five,
-      title: "Graphic design for :Printl",
+      title: "Coupon design for :Printl",
       href: "https://www.youtube.com/watch?v=Hik8Czp_CZ8",
     },
     {
       id: 6,
       src: six,
-      title: "Site for Muso Grazioso kennel",
+      title: "Site for dogs kennel, made in Elementor",
       href: "https://musograzioso.com/?page_id=150",
     },
   ];
@@ -72,11 +72,10 @@ const Design = () => {
               <Zoom>
                 <img
                   src={src}
-                  alt="photo of work"
+                  alt="my work"
                   className="rounded-md duration-200 hover:scale-105"
                 />
               </Zoom>
-
               <div className="flex items-center justify-center">
                 <form action={href}>
                   <button className="px-2 py-3 m-2 duration-200 hover:scale-105">

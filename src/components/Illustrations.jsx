@@ -24,12 +24,12 @@ const Illustrations = () => {
     {
       id: 3,
       src: three,
-      title: "Girl",
+      title: "Characters",
     },
     {
       id: 4,
       src: four,
-      title: "Characters",
+      title: "People",
     },
     {
       id: 5,
