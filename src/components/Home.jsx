@@ -17,7 +17,7 @@ const Home = () => {
           <p className="text-gray-500 py-4 max-w-md">
             I like to code things from scratch, look for solutions to problems
             which I can meet in process, to be creative, every day learn
-            something new and enjoy bringing ideas to life in the browser.
+            something new and enjoy bringing ideas to life
           </p>
           <div>
             <Link

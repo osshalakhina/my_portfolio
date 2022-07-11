@@ -58,8 +58,8 @@ const Programming = () => {
             Programming
           </p>
           <p className="py-6">
-            To create this projects I used HTML, CSS, JavaScript, React + I made
-            this portfolio on React
+            To create this projects I used HTML, CSS, JavaScript, React + this
+            portfolio on React
           </p>
         </div>
 
