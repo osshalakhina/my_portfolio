@@ -50,7 +50,7 @@ const Programming = () => {
   return (
     <div
       name="programming"
-      className="bg-gradient-to-b from-gray-800 to-black w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-gray-800 to-black w-full text-white md:h-screen h-full"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
