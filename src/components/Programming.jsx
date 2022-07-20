@@ -73,12 +73,12 @@ const Programming = () => {
               />
               <div className="flex items-center justify-center">
                 <form action={demo}>
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                  <button className="px-6 py-3 m-4 duration-200 hover:scale-105">
                     Demo
                   </button>
                 </form>
                 <form action={code}>
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                  <button className="px-6 py-3 m-4 duration-200 hover:scale-105">
                     Code
                   </button>
                 </form>
