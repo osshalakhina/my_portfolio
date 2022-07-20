@@ -48,27 +48,27 @@ const Experience = () => {
     },
     {
       id: 6,
-      src: tailwind,
-      title: "Tailwind",
-      style: "shadow-sky-400",
-    },
-    {
-      id: 7,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
     },
     {
-      id: 8,
+      id: 7,
       src: elementor,
       title: "Elementor",
       style: "shadow-red-800",
     },
     {
-      id: 9,
+      id: 8,
       src: uiux,
       title: "UI/UX",
       style: "shadow-yellow-600",
+    },
+    {
+      id: 9,
+      src: figma,
+      title: "Figma",
+      style: "shadow-green-300",
     },
     {
       id: 10,
@@ -88,18 +88,12 @@ const Experience = () => {
       title: "Adobe XD",
       style: "shadow-pink-500",
     },
-    {
-      id: 13,
-      src: figma,
-      title: "Figma",
-      style: "shadow-green-300",
-    },
   ];
 
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-black to-gray-800 w-full"
+      className="bg-gradient-to-b from-black to-gray-800 w-full md:h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
