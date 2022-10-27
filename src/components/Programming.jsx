@@ -47,12 +47,6 @@ const Programming = () => {
       demo: "https://raw.githubusercontent.com/osshalakhina/challenge/main/public/preview.gif",
       code: "https://github.com/osshalakhina/challenge",
     },
-    // {
-    //   id: 6,
-    //   src: six,
-    //   demo: "https://raw.githubusercontent.com/osshalakhina/effects-reducers-context/main/public/preview.gif",
-    //   code: "https://github.com/osshalakhina/effects-reducers-context",
-    // },
   ];
 
   return (
