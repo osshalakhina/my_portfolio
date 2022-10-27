@@ -46,16 +46,12 @@ const Illustrations = () => {
   return (
     <div
       name="illustrations"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen h-full"
+      className="bg-gradient-to-b from-gray-800 to-black w-full text-white md:h-screen h-full pt-10"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Illustrations
-          </p>
-          <p className="py-6">
-            To create this part of my works I used Adobe Illustrator and Adobe
-            Photoshop
           </p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">

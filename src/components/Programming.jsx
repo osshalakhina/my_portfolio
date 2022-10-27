@@ -1,4 +1,6 @@
 import React from "react";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 import one from "../assets/programming/one.jpg";
 import two from "../assets/programming/two.jpg";
@@ -50,30 +52,28 @@ const Programming = () => {
   return (
     <div
       name="programming"
-      className="bg-gradient-to-b from-gray-800 to-black w-full text-white md:h-screen h-full"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen h-full pt-10"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Programming
           </p>
-          <p className="py-6">
-            To create this projects I used HTML, CSS, JavaScript, React + this
-            portfolio on React
-          </p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, demo, code }) => (
+          {portfolios.map(({ id, src, demo, code, gifka }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-              <img
-                src={src}
-                alt="my work"
-                className="rounded-md duration-200 hover:scale-105"
-              />
+              <Zoom>
+                <img
+                  src={src}
+                  alt="my work"
+                  className="rounded-md duration-200 hover:scale-105"
+                />
+              </Zoom>
               <div className="flex items-center justify-center">
                 <form action={demo}>
-                  <button className="px-6 py-3 m-4 duration-200 hover:scale-105">
+                  <button className="px-6 py-2 m-4 duration-200 hover:scale-105">
                     Demo
                   </button>
                 </form>

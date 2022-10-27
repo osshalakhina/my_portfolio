@@ -14,14 +14,13 @@ const Design = () => {
     {
       id: 1,
       src: one,
-      title: "Graphic and presentations design for Datawiz.io",
+      title: "Designs for Datawiz.io",
       href: "https://www.slideshare.net/VolodymyrNepiuk/datawizio-our-mi",
     },
     {
       id: 2,
       src: two,
-      title:
-        "Web, graphic, presentations design and illustrations for KartoonArt",
+      title: "Designs for KartoonArt",
       href: "http://happyfarm.com.ua/bi/residents/kartoonart/",
     },
     {
@@ -33,19 +32,19 @@ const Design = () => {
     {
       id: 4,
       src: four,
-      title: "Web, graphic and package design for Promax Group",
+      title: "Designs for Promax Group",
       href: "http://www.promax.group/en",
     },
     {
       id: 5,
       src: five,
-      title: "Coupon design for :Printl",
+      title: "Designs for :Printl",
       href: "https://www.youtube.com/watch?v=Hik8Czp_CZ8",
     },
     {
       id: 6,
       src: six,
-      title: "Site for dogs kennel, made in Elementor",
+      title: "Site for dogs kennel (Elementor)",
       href: "https://musograzioso.com/?page_id=150",
     },
   ];
@@ -53,16 +52,12 @@ const Design = () => {
   return (
     <div
       name="design"
-      className="bg-gradient-to-b from-gray-800 to-black w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen pt-10"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Design
-          </p>
-          <p className="py-6">
-            I made design of business cards, labels, presentations and web,
-            created logos
           </p>
         </div>
 

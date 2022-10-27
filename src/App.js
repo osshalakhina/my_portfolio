@@ -1,10 +1,9 @@
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import SocialLinks from "./components/SocialLinks";
-import About from "./components/About";
 import Programming from "./components/Programming";
-import Experience from "./components/Experience";
-import Contact from "./components/Contact";
+import Skills from "./components/Skills";
+import Footer from "./components/Footer";
 import Illustrations from "./components/Illustrations";
 import Design from "./components/Design";
 
@@ -14,12 +13,11 @@ function App() {
       <NavBar />
       <Home />
       <SocialLinks />
-      <About />
-      <Experience />
+      <Skills />
       <Programming />
       <Illustrations />
       <Design />
-      <Contact />
+      <Footer />
     </div>
   );
 }
