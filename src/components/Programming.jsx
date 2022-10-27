@@ -32,21 +32,27 @@ const Programming = () => {
     {
       id: 4,
       src: four,
-      demo: "https://raw.githubusercontent.com/osshalakhina/expenses-react/main/public/Project.gif",
-      code: "https://github.com/osshalakhina/expenses-react",
+      demo: "https://raw.githubusercontent.com/osshalakhina/react_portfolio/main/public/preview.gif",
+      code: "https://github.com/osshalakhina/react_portfolio",
     },
     {
       id: 5,
       src: five,
-      demo: "https://raw.githubusercontent.com/osshalakhina/challenge/main/public/preview.gif",
-      code: "https://github.com/osshalakhina/challenge",
+      demo: "https://raw.githubusercontent.com/osshalakhina/expenses-react/main/public/Project.gif",
+      code: "https://github.com/osshalakhina/expenses-react",
     },
     {
       id: 6,
       src: six,
-      demo: "https://raw.githubusercontent.com/osshalakhina/effects-reducers-context/main/public/preview.gif",
-      code: "https://github.com/osshalakhina/effects-reducers-context",
+      demo: "https://raw.githubusercontent.com/osshalakhina/challenge/main/public/preview.gif",
+      code: "https://github.com/osshalakhina/challenge",
     },
+    // {
+    //   id: 6,
+    //   src: six,
+    //   demo: "https://raw.githubusercontent.com/osshalakhina/effects-reducers-context/main/public/preview.gif",
+    //   code: "https://github.com/osshalakhina/effects-reducers-context",
+    // },
   ];
 
   return (
