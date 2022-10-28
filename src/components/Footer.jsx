@@ -8,7 +8,7 @@ function Footer() {
     >
       <p className="pt-8 pb-8 text-gray-500 text-center">
         {" "}
-        &copy; Olga Kosov, 2022
+        &copy; Olga Shalakhina, 2022
       </p>
     </div>
   );

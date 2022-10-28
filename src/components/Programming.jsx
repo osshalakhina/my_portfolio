@@ -32,7 +32,7 @@ const Programming = () => {
     {
       id: 4,
       src: four,
-      demo: "https://raw.githubusercontent.com/osshalakhina/react_portfolio/main/public/preview.gif",
+      demo: "https://kosov.site/",
       code: "https://github.com/osshalakhina/react_portfolio",
     },
     {
@@ -52,7 +52,7 @@ const Programming = () => {
   return (
     <div
       name="programming"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen h-full pt-10"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen h-full"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
