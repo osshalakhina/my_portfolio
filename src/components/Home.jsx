@@ -38,7 +38,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my profile"
-            className="mx-auto w-2/3 md:w-11/12"
+            className="mx-auto w-2/3 md:w-full"
           />
         </div>
       </div>
