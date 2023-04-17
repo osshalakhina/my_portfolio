@@ -4,30 +4,21 @@ import html from "../assets/exp/html.png";
 import css from "../assets/exp/css.png";
 import javascript from "../assets/exp/javascript.png";
 import reactImage from "../assets/exp/react.png";
-import github from "../assets/exp/github.png";
 import tailwind from "../assets/exp/tailwind.png";
-import illustrator from "../assets/exp/illustrator.png";
-import photoshop from "../assets/exp/photoshop.png";
-import figma from "../assets/exp/figma.png";
 import bootstrap from "../assets/exp/bootstrap.png";
-import uiux from "../assets/exp/uiux.png";
-import elementor from "../assets/exp/elementor.png";
-import xd from "../assets/exp/xd.png";
-import flash from "../assets/exp/flash.png";
-import nodejs from "../assets/exp/nodejs.png";
 
 const Skills = () => {
   const techs = [
     {
       id: 1,
       src: html,
-      title: "HTML",
+      title: "HTML5",
       style: "shadow-orange-500",
     },
     {
       id: 2,
       src: css,
-      title: "CSS",
+      title: "CSS3",
       style: "shadow-blue-500",
     },
     {
@@ -39,7 +30,7 @@ const Skills = () => {
     {
       id: 4,
       src: reactImage,
-      title: "React",
+      title: "React.js",
       style: "shadow-blue-600",
     },
     {
@@ -53,24 +44,6 @@ const Skills = () => {
       src: tailwind,
       title: "Tailwind CSS",
       style: "shadow-blue-500",
-    },
-    {
-      id: 7,
-      src: illustrator,
-      title: "Adobe Illustrator",
-      style: "shadow-orange-400",
-    },
-    {
-      id: 8,
-      src: photoshop,
-      title: "Adobe Photoshop",
-      style: "shadow-sky-500",
-    },
-    {
-      id: 9,
-      src: figma,
-      title: "Figma",
-      style: "shadow-green-300",
     },
   ];
 
