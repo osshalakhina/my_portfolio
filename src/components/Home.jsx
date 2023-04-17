@@ -16,9 +16,9 @@ const Home = () => {
             Front End Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I like to code things from scratch, look for solutions to problems
-            which I can meet in process, to be creative, every day learn
-            something new and enjoy bringing ideas to life.
+            I am creative and always eager to learn, specialize and develop
+            myself as much as possible. When I am facing a goal I will invest
+            the best to achieve it.
           </p>
           <div>
             <Link

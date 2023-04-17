@@ -44,66 +44,30 @@ const Skills = () => {
     },
     {
       id: 5,
-      src: nodejs,
-      title: "Node.js",
-      style: "shadow-green-600",
-    },
-    {
-      id: 6,
       src: bootstrap,
       title: "Bootstrap",
       style: "shadow-violet-600",
     },
     {
-      id: 7,
+      id: 6,
       src: tailwind,
       title: "Tailwind CSS",
       style: "shadow-blue-500",
     },
     {
-      id: 8,
-      src: github,
-      title: "GitHub",
-      style: "shadow-gray-400",
-    },
-    {
-      id: 9,
-      src: elementor,
-      title: "Elementor",
-      style: "shadow-red-800",
-    },
-    {
-      id: 10,
-      src: uiux,
-      title: "UX/UI",
-      style: "shadow-yellow-600",
-    },
-    {
-      id: 11,
+      id: 7,
       src: illustrator,
       title: "Adobe Illustrator",
       style: "shadow-orange-400",
     },
     {
-      id: 12,
+      id: 8,
       src: photoshop,
       title: "Adobe Photoshop",
       style: "shadow-sky-500",
     },
     {
-      id: 13,
-      src: xd,
-      title: "Adobe XD",
-      style: "shadow-pink-500",
-    },
-    {
-      id: 14,
-      src: flash,
-      title: "Adobe Flash",
-      style: "shadow-red-500",
-    },
-    {
-      id: 15,
+      id: 9,
       src: figma,
       title: "Figma",
       style: "shadow-green-300",
@@ -121,7 +85,7 @@ const Skills = () => {
             Skills
           </p>
         </div>
-        <div className="w-full grid grid-cols-2 sm:grid-cols-5 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
